@@ -1,0 +1,7 @@
+01-25; Dark Brown
+26-50; Brown
+51-70; Hazel
+71-80; Green
+81-95; Blue
+96-98; Blue + Green
+99-100; Other

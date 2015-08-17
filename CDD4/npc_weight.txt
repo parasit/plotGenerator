@@ -1,0 +1,7 @@
+01-05; Very Skinny
+06-15; Skinny
+16-30; Thin
+31-75; Average
+76-90; Heavy-set
+91-98; Fat
+99-100; Corpulent

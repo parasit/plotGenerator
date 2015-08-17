@@ -1,0 +1,20 @@
+Optimist/Pessimist
+Hedonist/Altruist
+Careless/Sober
+Helpful/Kindly
+Studious/Perceptive
+Capricious/Mischevious
+Curious/Inquisitive
+Moody/ Malevolent
+Trusting/ Fanatical
+Intellectual/Witty
+Precise/Exacting
+Opinionated/Contrary
+Suspicious/Cautious
+Cheerful/Happy
+Peaceful/Gentle
+Violent/Warlike
+Foul/Barbaric
+Cruel/Callous
+Practical Joker/Prankster
+Servile/Obsequious

@@ -1,0 +1,7 @@
+01-04; Dwarfizm
+05-15; Very Short
+16-30; Short
+31-75; Average
+76-90; Tall
+91-99; Very Tall
+Gigantism

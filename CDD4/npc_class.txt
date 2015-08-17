@@ -1,0 +1,14 @@
+01-05; Begger
+06-15; Commoner
+16-20; Expert
+21-28; Noble
+29-49; Fighter
+50-50; Palladin
+51-70; Thief
+71-75; Bard
+76-77; Ranger
+78-82; Cleric
+83-85; Druid
+86-90; Magic User
+91-95; Illusionist
+96-100; Multi class {{ {{ d3 }}, npc_class.txt }}

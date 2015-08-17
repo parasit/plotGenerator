@@ -1,0 +1,8 @@
+01-15; Filthy
+16-25; Dirty
+26-40; Ragged
+41-60; Unkempt
+61-75; Neat
+76-85; Very Neat
+86-95; Fashionable
+96-100; Immaculate

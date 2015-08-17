@@ -110,7 +110,7 @@ public class PlotParser {
             PlotParser parser = new PlotParser(this.projectName);
             while ((inputLine = in.readLine()) != null)
                 //System.out.println(inputLine);
-                tmpResult += parser.parse(inputLine);
+                tmpResult += parser.parse(inputLine) + "\n";
             in.close();
         } catch (IOException e) {
             System.out.println(e.getLocalizedMessage());

@@ -5,5 +5,18 @@ Name: Random :)<br/>
 Sex: {{ sex.txt }} <br/>
 Complexion: {{ complexion.txt }} <br/>
 Age: {{ age.txt }} <br/>
+Hair: {{ hair.txt }} <br/>
+Appearance: {{ appearance.txt }} <br/>
+Apparent Age: {{ npc_apparent_age.txt }} <br/>
+Eye Color: {{ eye_color.txt }} <br/>
+Height: {{ npc_height.txt }} <br/>
+Weight: {{ npc_weight.txt }} <br/>
+Sanity: {{ npc_sanity.txt }} <br/>
+Class: {{ npc_class.txt }} <br/>
+Level: {{ npc_level.txt }} <br/>
+Alignment: {{ npc_alignment.txt }} <br/>
+Moral Trend: {{ npc_moral_trend.txt }} <br/>
+Possessions: {{ npc_possessions.txt }} <br/>
+General personality traits: {{ general_personality_traits.txt }} <br/>
 </body>
 <html>

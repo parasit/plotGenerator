@@ -1,0 +1,6 @@
+01-10; Child
+10-30; Youth
+31-70; Adult
+71-85; Middle Aged
+86-95; Old
+96-100; Elderly

@@ -1,0 +1,7 @@
+01-10; Insane
+11-20; Fanatical
+21-60; Sane
+61-70; Neurotic
+71-80; Steady
+81-90; Eccentric
+91-100; Unshakeable

@@ -1,0 +1,6 @@
+01-15; None
+16-40; Very Poor
+41-70; Poor
+71-85; Comfortable
+86-98; Wealthy
+99-100; Filthy Rich

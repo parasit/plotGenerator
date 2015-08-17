@@ -1,0 +1,8 @@
+01-20; Black
+21-35; Dark Brown
+36-45; Salt & Pepper
+46-60; Sandy Brown
+61-75; Light Brown
+76-90; Blond
+91-98; Red
+99-100; Other (*)
