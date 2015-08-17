@@ -1,0 +1,9 @@
+<html>
+
+<body>
+Name: Random :)<br/>
+Sex: {{ sex.txt }} <br/>
+Complexion: {{ complexion.txt }} <br/>
+Age: {{ age.txt }} <br/>
+</body>
+<html>

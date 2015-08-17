@@ -1,0 +1,4 @@
+01-30; Fair
+31-69; Tanned
+70-90; Dark
+91-100; Disfigured

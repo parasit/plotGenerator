@@ -1,0 +1,6 @@
+Miecz
+Topór
+Włócznia
+3;Sztylet
+Pałka
+3; {{ {{ d3 }} , bron.txt }}
