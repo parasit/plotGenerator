@@ -68,10 +68,12 @@ public class HelloController implements Initializable
     private WebEngine webEngine;
 
     public void initialize(URL fxmlFileLocation, ResourceBundle resources) {
-        assert mainWebView != null : "fx:id=\"myButton\" was not injected: check your FXML file 'simple.fxml'.";
+        assert mainWebView != null : "fx:id=\"mainWebView\" was not injected: check your FXML file 'simple.fxml'.";
+
 
         // initialize your logic here: all @FXML variables will have been injected
         webEngine = mainWebView.getEngine();
+        this.mainSourceTextArea.setText(new TextFileReader().read(new File("CDD4/bb_random.npc")));
         //webEngine.load("http://natemat.pl");
         //loadContent("http://natemat.pl");
     }
