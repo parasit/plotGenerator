@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
 <?import javafx.scene.web.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<SplitPane dividerPositions="0.3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="org.ibu.rpgforge.plotgui.HelloController">
-  <items>
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.ibu.rpgforge.plotgui.HelloController">
          <children>
-            <ListView fx:id="mainNPCList" layoutX="-0.0" layoutY="-0.0" prefHeight="409.0" prefWidth="193.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-         </children></AnchorPane>
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
-         <children>
-            <WebView fx:id="mainWebView" layoutX="-3.0" layoutY="-3.0" prefHeight="400.0" prefWidth="417.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-         </children></AnchorPane>
-  </items>
-</SplitPane>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+               <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+                 <items>
+                   <AnchorPane>
+                        <children>
+                           <TextArea id="mainSourceTextArea" fx:id="mainSourceTextArea" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        </children>
+                     </AnchorPane>
+                   <AnchorPane>
+                        <children>
+                           <WebView id="mainWebView" fx:id="mainWebView" minHeight="-1.0" minWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        </children>
+                     </AnchorPane>
+                 </items>
+               </SplitPane>
+         </center>
+         <top>
+                  <ToolBar BorderPane.alignment="CENTER">
+                    <items>
+                      <Button id="mainRefreshButton" mnemonicParsing="false" onAction="#mainFrameRefresh" text="Refresh" />
+                      <Button id="sourceLoadButton" mnemonicParsing="false" onAction="#sourceTextAreaLoad" text="Load" />
+                    </items>
+                  </ToolBar>
+         </top>
+         <left>
+               <ListView fx:id="mainNPCList" prefHeight="409.0" prefWidth="193.0" BorderPane.alignment="CENTER" />
+         </left>
+      </BorderPane>
+         </children>
+</AnchorPane>
